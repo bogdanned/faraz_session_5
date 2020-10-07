@@ -119,11 +119,11 @@ function displayTeamMember(person, teamContainer) {
 
 
 function dislayATeam(teamname) {
-  const container = document.getElementById("demo")
+  const container = document.getElementById("demo") //where 
   for (let i = 0; i < salesTeam.length; i++) {
     const salesmember = salesTeam[i];
-    displayTeamMember(salesmember, container);
-  }
+    displayTeamMember(salesmember, container);  // get the container  122 and append the child "p" after creating
+  }                     // salesmember will just give the list of people and container will paint the properties
 }
 
 dislayATeam(salesTeam);
